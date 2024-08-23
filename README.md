@@ -1,6 +1,6 @@
 # Terraform EC2 Instance Provisioning
 
-This repository provides Terraform configuration files for provisioning an AWS EC2 instance and deploy apache webserver with additional settings, such as EBS volumes, provisioners, and SSH access.
+This repository provides Terraform configuration files for provisioning an AWS EC2 instance and deploy Apache Web Server with additional settings, such as EBS volumes, provisioners, and SSH access.
 
 ## Architecture Diagram
 
@@ -9,7 +9,7 @@ This repository provides Terraform configuration files for provisioning an AWS E
 ---
 
 ## 📋 Table of Contents
-
+- [Architecture Diagram](#Architecture-Diagram)
 - [Prerequisites](#prerequisites)
 - [Configuration](#configuration)
 - [Usage](#usage)

@@ -48,3 +48,15 @@ resource "aws_instance" "Web_Server" {
     }
   }
 }
+
+output "public_ip" {
+  value = aws_instance.Web_Server.public_ip
+}
+
+output "public_dns" {
+  value = aws_instance.Web_Server.public_dns
+}
+
+output "availability_zone" {
+  value = aws_instance.Web_Server.availability_zone
+}
